@@ -1,0 +1,39 @@
+﻿@import url('layout/menu.css');
+@import url('layout/header.css');
+@import url('layout/content.css');
+@import url('../css/common/dialog-input.css');
+
+
+@font-face {
+    font-family: 'GoogleSans-Bold';
+    src: url('../content/font/GoogleSans-Bold.otf') format('opentype');
+}
+@font-face {
+    font-family: 'GoogleSans-Italic';
+    src: url('../content/font/GoogleSans-Italic.otf') format('opentype');
+}
+@font-face {
+    font-family: 'GoogleSans-Regular';
+    src: url('../content/font/GoogleSans-Regular.otf') format('opentype');
+}
+body {
+    margin: 0px;
+    padding:0px;
+    box-sizing:border-box;
+    font-family: GoogleSans-Regular;
+    font-size: 13px;
+    font-style: normal;
+}
+.panel-left{
+    width:200px;
+    height:100vh;
+}
+.panel-right {
+    position: absolute;
+    top: 0;
+    left: 200px;
+    width: calc(100% - 200px);
+    height: 100vh;
+    border-left: 2px solid #bbbbbb;
+    box-sizing: border-box;
+}

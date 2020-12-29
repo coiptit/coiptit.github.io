@@ -1,0 +1,11 @@
+﻿.dialog-input{
+    height:30px;
+    width:220px;
+    outline:none;
+    box-sizing:border-box;
+    margin-top:3px;
+    margin-bottom:16px;
+    padding-left:10px;
+    border:1px #bebebe solid;
+    border-radius:4px;
+}

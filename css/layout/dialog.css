@@ -1,0 +1,74 @@
+﻿.m-dialog .dialog-content {
+    background-color: #ffffff;
+    z-index: 1000;
+    border-radius: 5px;
+}
+
+.dialog-content .dialog-body {
+    padding: 0px 24px 24px;
+    display: flex;
+}
+
+.dialog-body--left {
+    width: 180px;
+}
+
+    .dialog-body--left .avatar-icon {
+        margin-top:20px;
+        width: 180px;
+        height: 180px;
+        background-image: url('../../content/img/default-avatar.jpg');
+        background-position: center;
+        background-size: contain;
+        border-radius: 50%;
+        border: 1px solid #bbbbbb;
+        box-sizing: border-box;
+    }
+
+    .dialog-body--left .avatar-text {
+        text-align: center;
+    }
+
+.dialog-body--right {
+    width: calc(100% - 200px);
+    margin-left:16px;
+}
+.common{
+    display:flex;
+}
+.common-left{
+    width:250px;
+}
+.common-right{
+    width:250px;
+    margin-left:10px;
+}
+.empty{
+    height:66px;
+}
+.work{
+    display:flex;
+}
+.work-left {
+    width: 250px;
+}
+
+.work-right {
+    width: 250px;
+    margin-left: 10px;
+}
+.dialog-footer {
+    display: flex;
+    width: 100%;
+    height: 60px;
+    background-color: #e9ebee;
+    border-radius: 0 0 5px 5px;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 12px 24px;
+    box-sizing: border-box;
+}
+
+    .dialog-footer button {
+        margin-left: 16px;
+    }
